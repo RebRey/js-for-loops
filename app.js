@@ -1,6 +1,9 @@
-const array = [1, 2, 3];
+const population = {
+  male: 4,
+  female: 93,
+  others: 10
+};
 
-for (const i in array) {
-  console.log(i);
-}
+let genders = Object.keys(population);
 
+console.log(genders);
