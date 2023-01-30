@@ -1,6 +1,6 @@
-for (let i = 1; i < 10; i += 2) {
-  if (i === 7) {
-    break;
-  }
-  console.log("Total elephants:" + i);
+const array = [1, 2, 3];
+
+for (const i in array) {
+  console.log(i);
 }
+
